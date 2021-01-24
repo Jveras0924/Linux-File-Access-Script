@@ -1,8 +1,5 @@
 #!/bin/bash
 
-DIR="false"
-FI="false"
-
 read -p "Enter the name of a file or a directory: " FILE
 
 if [ -d $FILE ];
